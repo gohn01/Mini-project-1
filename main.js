@@ -34,3 +34,4 @@ cursorScale.forEach(link => {
         }
     });
 })
+
