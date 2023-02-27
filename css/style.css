@@ -259,10 +259,11 @@ footer {
 
 @media (max-width: 868px) {
   
-  .nav-link{
+  .nav-item a{
     font-size: 5rem;
   }
 
+  /* collaboration */
   .colab h2{
     font-size: 4rem;
   }
@@ -271,6 +272,12 @@ footer {
     text-indent: 0;
   }
   
+      /* #designer */
+      .card {
+        margin: 0 10px;
+      }
+
+  /* #about */
   .about {
     margin-top: 50px;
     height: 200px;
@@ -295,11 +302,13 @@ footer {
     height: 200px;
   }
 
+/* #channel */
+
   .article {
     margin-top: 60px;
   }
 
-
+  /* #footer */
   footer .logo {
     width: 100%;
   }
@@ -312,11 +321,16 @@ footer {
 
 @media (max-width: 576px) {
 
-  .nav-link{
+  .nav-item a{
     font-size: 3rem;
   }
 
+    /* #designer */
+    .card {
+      margin: 0 30px;
+    }
 
+  /* #collaboration */
   .colab h2{
     font-size: 1.5rem;
   }
@@ -325,34 +339,8 @@ footer {
     text-indent: 0;
   }
   
+  /* #footer */
   footer .logo {
     width: 100%;
   }
-}
-
-
-/* animation cursor */
-.cursor {
-  position: fixed;
-  width: 40px;
-  height: 40px;
-  margin-left: -20px;
-  margin-top: -20px;
-  border-radius: 50%;
-  border: 2px solid #16a085;
-  transition: transform .2s ease;
-  transform-origin: center center;
-  pointer-events: none;
-  z-index: 1000;
-}
-
-.grow, .grow-small {
-  transform: scale(7);
-  background: #fff;
-  mix-blend-mode: difference;
-  border: none;
-}
-
-.grow-small {
-  transform: scale(2.5);
 }
